@@ -1,0 +1,8 @@
+all.out:atd1 Bdd1
+
+atd1:
+	gcc atd.c -o atd1 -lpthread
+Bdd1:
+	gcc Bdd.c -o Bdd1 -lpthread
+
+
